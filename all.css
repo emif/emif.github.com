@@ -1,2 +1,12 @@
-body { margin: 1em }
-table { position: absolute; left: 50% }
+html { min-width: 53em }
+body { margin: 1em; color: #333; font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif }
+div { padding-top: 4em; padding-bottom: 3.5em; border-bottom: 1px solid black }
+table { padding: 0.5em; position: relative; left: 50%; margin-left: -23.5em }
+tr { padding-top: 1em }
+th { width: 8em; text-align: right; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: black; font-size: .9em; padding-right: 1em; vertical-align: top; padding-top: 0.2em }
+td { width: 33em; padding-bottom: .5em }
+div:first-child { padding-top: 0; padding-bottom: 1em; }
+div div { width: 33em; margin: auto; padding: 0 !important; border: none; position: relative }
+h1 { font-size: 3em; font-weight: bold; margin-left: -.15em }
+h1:first-letter { font-weight: normal; font-style: italic }
+div#appeal { width: 15em; position: absolute; right: -7.5em; top: 1em; text-align: center; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: black }
