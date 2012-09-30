@@ -5,7 +5,7 @@ table { padding: 0.5em; position: relative; left: 50%; margin-left: -23.5em }
 tr { padding-top: 1em }
 th { width: 8em; text-align: right; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: black; font-size: .9em; padding-right: 1em; vertical-align: top; padding-top: 0.2em }
 td { width: 33em; padding-bottom: .5em }
-table:first-child td { font-weight: bold }
+tr:first-child td { font-weight: bold }
 div:first-child { padding-top: 0; padding-bottom: 1em; }
 div div { width: 33em; margin: auto; padding: 0 !important; border: none; position: relative }
 h1 { font-size: 3em; font-weight: bold; margin-left: -.15em }
